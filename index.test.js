@@ -47,4 +47,8 @@ describe('request trimmer', () => {
       },
     });
   });
+
+  test('checking to see if travis ci fails', async () => {
+    expect(2).toEqual(1);
+  })
 });
